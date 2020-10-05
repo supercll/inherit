@@ -11,3 +11,4 @@ function Son(name, age) {
 }
 
 Son.prototype = Object.create(Father.prototype);
+Son.prototype.constructor = Son;
