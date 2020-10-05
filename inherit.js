@@ -9,3 +9,5 @@ function Son(name, age) {
     Father.call(Son, name);
     this.age = age;
 }
+
+Son.prototype = Object.create(Father.prototype);
